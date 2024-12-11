@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: healthconnect-backend
+    env: node
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm run dev
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000  # Cambia al puerto que uses en el backend
+
+  - type: web
+    name: healthconnect-frontend
+    env: node
+    region: oregon
+    buildCommand: cd client && npm install
+    startCommand: cd client && npm run dev
+    envVars:
+      - key: NODE_ENV
+        value: production
