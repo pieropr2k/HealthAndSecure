@@ -4,7 +4,7 @@ Esta es una aplicacion pensada para que los doctores se publiciten de manera ind
 
 ## Backend
 
-Desarrollada en NodeJs y Express.js y la base de datos desarrollada con SQLite.
+Se desarrolló una API en NodeJs y Express.js y como base de datos usamos SQLite.
 
 ### Deployment
 
