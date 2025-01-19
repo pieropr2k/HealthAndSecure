@@ -26,7 +26,7 @@ npm run dev
 
 Desarrollado en React y TailwindCSS para consumir la API del backend.
 
-### Panel de Doctor:
+### Panel de Cliente:
 
 ![alt text](caps/doctors_to_select.jpg)
 
